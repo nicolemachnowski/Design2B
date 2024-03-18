@@ -1,0 +1,84 @@
+body{
+    background-color: red
+}
+
+#lineOne{
+    color:yellow;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#lineTwo{
+    font-size: 40px;
+    text-align: right;
+}
+#lineThree{
+    font-family: 'Gelasio', serif;
+    font-size: 90px;
+    background-color: black;
+    color: red;
+}
+#lineFour{
+    font-family: 'Anek Kannada';
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+#lineFive{
+    font-family: 'Glegoo';
+    text-align: justify;
+    font-size: 50px;
+    color:chartreuse
+}
+
+#lineSix{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    color: aqua;
+    background-color: black;
+    border: 3px;
+    border-color: darksalmon;
+}
+
+#lineSeven{
+    text-align: right;
+    font-weight: bolder;
+    font-size: 75px;
+    color: aquamarine;
+}
+
+#lineEight{
+border: 5px;
+border-color: blueviolet;
+font-size: 25px;
+}
+
+#lineNine{
+font-weight: lighter;
+font-size: 15px;
+color: cadetblue;
+}
+
+#lineTen{
+font-size: 85px;
+font-weight: bold;
+text-align: right;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lineEleven{
+font-size: 10px;
+color: crimson;
+border: 2px;
+border-color: black;
+text-align: center;
+}
+
+#lineTwelve{
+font-size: 100px;
+color:darkseagreen;
+text-decoration: underline;
+text-align: center;
+font-weight: bolder;
+}
