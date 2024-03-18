@@ -1,0 +1,47 @@
+body {
+    width: 100vw;
+    background-color: black;
+    color: blue;
+    font-size: 60px;
+}
+
+div {
+    width: 60%;
+    margin-top: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+p {
+    animation: test 10s ease-in-out alternate infinite;
+}
+
+/* Step 1: Mess around with this animation setup. See what happens */
+@keyframes test {
+    0% {
+        color: palegreen;
+        transform: skew(0deg, 0deg) rotate(-360deg) scale(2) scale(1);
+    }
+
+    25% {
+        color: lightpink;
+        transform: skew(-45deg, -45deg) rotate(360deg) scale(2) scale(1);
+    }
+
+    50% {
+        color: lightcoral;
+        transform: skew(45deg, 45deg) rotate(-360deg) scale(2) scale(1);
+    }
+
+    75% {
+        color: lavender;
+        transform: skew(-45deg, -45deg) rotate(360deg) scale(2) scale(1);
+    }
+
+
+    100% {
+        color: lightskyblue;
+        transform: skew(0deg, 0deg) rotate(360deg) scale(2) scale(4) translateY(100);
+    }
+}
